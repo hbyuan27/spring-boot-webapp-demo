@@ -1,0 +1,9 @@
+applications:
+ - name: hbyuan27-cfdemo-A
+   path: .
+   memory: 1024M
+   instances: 1
+   routes:
+    - route: hbyuan27-cfdemo.cfapps.sap.hana.ondemand.com
+   services:
+    - demo-pg-service
